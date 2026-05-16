@@ -8,7 +8,7 @@ import net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket;
 
 public class VelocityModule extends Module {
     public VelocityModule() {
-        super("Velocity", "Removes velocity from explosions and entities", Category.PLAYER);
+        super("AntiKB", "Removes velocity from explosions and entities", Category.PLAYER);
     }
 
     @Subscribe
